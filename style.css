@@ -6,7 +6,6 @@
   font-family: "Lato", sans-serif;
   font-style: normal;
   box-sizing: border-box;
-
   scroll-behavior: smooth;
 }
 
@@ -39,11 +38,12 @@ header {
   width: 100%;
   height: 100vh;
   position: absolute;
-  top: 0px;
+  top: 0;
   right: -40px;
   padding: 73px 20px 0 20px;
   transform: translateY(-100%);
   transition: all 0.5s linear;
+
   /* opacity: 0;
   visibility: hidden;
   pointer-events: none; */
@@ -62,6 +62,7 @@ header {
   text-decoration: none;
   text-align: center;
 }
+
 .box {
   border: #d3d3d3 solid 3px;
   border-radius: 8px;
@@ -84,6 +85,7 @@ header {
   letter-spacing: 0;
   text-align: left;
 }
+
 .navItem:hover {
   transform: scale(1.1);
 }
@@ -102,6 +104,7 @@ header {
 
 .active .navlinks {
   transform: translateY(0);
+
   /* opacity: 1;
   visibility: visible;
   pointer-events: auto; */
@@ -136,6 +139,7 @@ header {
   padding: 5%;
   margin-bottom: 10px;
   align-items: center;
+
   /* max-width: 575px; */
 }
 
@@ -152,6 +156,7 @@ header {
   font-weight: 900;
   font-size: 36px;
 }
+
 .heading {
   text-align: left;
   margin: 0 55px;
@@ -178,7 +183,6 @@ header {
   padding-bottom: 10px;
   background-color: rgb(247, 247, 248);
   color: #272a31;
-  line-height: 30px;
   font-weight: 900;
   font-size: 30px;
   line-height: 40px;
@@ -203,10 +207,12 @@ header {
 .mainProgramHeading h3 {
   font-size: 26px;
 }
+
 .mainProgramHeading hr {
   border: 2px solid #ff6b00;
   width: 50px;
 }
+
 .guidbar {
   width: 53px;
   height: 16px;
@@ -230,12 +236,14 @@ header {
   text-align: center;
   width: 50%;
 }
+
 .mainprogramDescription {
   text-align: left;
   font-size: 12px;
   width: calc(100% - 6.5em);
   color: #d3d3d3;
 }
+
 .joinNow {
   background-color: #ec5242;
   color: #d3d3d3;
@@ -285,16 +293,19 @@ header {
   font-weight: 700;
   font-size: 24px;
 }
+
 .speakerDescription h6 {
   color: #ec5242;
   text-decoration: wavy;
   font-style: italic;
   font-size: 14px;
 }
+
 .speakerDescription p {
   width: 90%;
   max-width: 577px;
 }
+
 .partner {
   background-color: #272a31;
   color: #fff;
@@ -346,6 +357,7 @@ header {
   .navbar-dt {
     display: block;
   }
+
   .navbar-mob {
     display: none;
   }
@@ -353,6 +365,7 @@ header {
   .socialHeader {
     background-color: black;
   }
+
   .socialHeaderList {
     list-style: none;
     display: flex;
@@ -361,6 +374,7 @@ header {
     gap: 25px;
     padding-right: 10%;
   }
+
   .socialHeaderList img {
     width: 20px;
   }
@@ -369,6 +383,7 @@ header {
     text-decoration: none;
     color: white;
   }
+
   .mainHeader {
     background-color: white;
     height: 60px;
@@ -377,6 +392,7 @@ header {
     align-items: center;
     padding-left: 5%;
   }
+
   .logo img {
     width: 100px;
   }
@@ -387,18 +403,21 @@ header {
     gap: 60px;
     padding-right: 5%;
   }
+
   .menuList li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
     color: black;
   }
+
   /* homepage/heading section */
   .homePage {
     display: flex;
     flex-direction: column;
     justify-content: left;
   }
+
   .heading {
     text-align: left;
     margin-left: 100px;
@@ -454,6 +473,7 @@ header {
     font-size: 20px;
     width: 100%;
   }
+
   .mainprogramDescription {
     text-align: center;
     font-size: 14px;
@@ -465,9 +485,11 @@ header {
     border: #ec5242 3px solid;
     transform: scale(1.001);
   }
+
   .joinNow {
     display: none;
   }
+
   .see {
     display: block;
     color: #d3d3d3;
@@ -488,6 +510,7 @@ header {
     padding: 60px;
     min-width: 100%;
   }
+
   .mainProgramHeading h3 {
     text-align: center;
     margin-top: 36px;
@@ -509,6 +532,7 @@ header {
   .partner_logo img {
     width: 80%;
   }
+
   .mobile-footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
