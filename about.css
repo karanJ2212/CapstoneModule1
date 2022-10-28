@@ -9,7 +9,7 @@
 }
 
 .bgImg {
-  background-image: url("/SVG/BG-about_bg_01.png");
+  background-image: url("SVG/BG-about_bg_01.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-color: #f7f7f8;

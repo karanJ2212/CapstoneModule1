@@ -124,7 +124,7 @@ header {
 }
 
 .bgImg {
-  background-image: url(/SVG/BGMobile-intro-bg.png);
+  background-image: url(SVG/BGMobile-intro-bg.png);
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -190,7 +190,7 @@ header {
 
 /* main program section */
 .mainProgram {
-  background-image: url("/SVG/program-bg.jpg");
+  background-image: url("SVG/program-bg.jpg");
   color: #fff;
   text-align: center;
   padding-top: 50px;
