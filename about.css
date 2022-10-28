@@ -39,7 +39,6 @@
 
 .main hr {
   width: 32px;
-
   border: 1px solid #ec5242;
   margin: 0 auto 24px;
 }
@@ -64,11 +63,13 @@
   line-height: 20px;
   margin-bottom: 30px;
 }
+
 .contact-details {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
+
 .icon-list {
   display: flex;
   margin-bottom: 12px;
