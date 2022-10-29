@@ -366,19 +366,22 @@
 
   /* partner section start */
 
-  .partner_title {
-    font-size: 36px;
+  .mainProgramHeading-abt {
+    /* font-size: 36px; */
+    display: none;
   }
 
   .partner_logo {
-    display: grid;
+    display: none;
+
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 0 100px;
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
     column-gap: 0;
-    row-gap: 0;
+    row-gap: 0; */
   }
 
   .partner_logo img {
@@ -390,6 +393,7 @@
   .mobile-footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #272a31;
   }
 
   .mobile-footer img {
@@ -404,5 +408,6 @@
     font-size: 18px;
     font-weight: 400;
     padding-right: 200px;
+    color: #fff;
   }
 }
