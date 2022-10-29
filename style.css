@@ -149,7 +149,7 @@ header {
 
 .heading > h4 {
   font-weight: 400;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 .heading > h1 {
@@ -179,12 +179,12 @@ header {
   text-align: center;
   width: 100%;
   margin: 0;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 10px;
   background-color: rgb(247, 247, 248);
   color: #272a31;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
 }
 
@@ -433,12 +433,14 @@ header {
   }
 
   .discription {
-    font-size: 20px;
-    line-height: 35px;
-    padding: 10px 25px;
-    margin-left: 85px;
-    margin-right: 300px;
-    background-color: #fff;
+    margin: 83px 25px 0 25px;
+    padding: 0px 8px;
+    line-height: 25px;
+    word-break: break-all;
+    text-align: justify;
+    background-color: rgb(247, 247, 248);
+    color: rgb(111, 112, 116);
+    flex-wrap: wrap;
   }
 
   .timing {
