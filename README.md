@@ -2,8 +2,8 @@
 
 # FirstCapStone
 
-> This project is My First Capstone and made with HTML, CSS and JavaScript.
-
+> This project is Microverse Module 1 Capstone project and made with HTML, CSS and JavaScript.
+This a website for garment expo India which showcases main events ,highlights and contact informations. 
 ## Built With
 
 - HTML
